@@ -1,0 +1,106 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Manrope', sans-serif;
+	background-color: #f9f9f9;
+	color: #2b2b2b;
+}
+
+header {
+	margin: 1rem;
+	text-align: center;
+	font-size: 2.2rem;
+	font-weight: 800;
+	color: #444941;
+}
+
+.main {
+	margin: 0 auto;
+}
+
+.app {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 30rem;
+	height: 100%;
+	padding: 1rem;
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+	padding: 2px 16px;
+}
+
+.card h4 {
+	font-size: 1.1rem;
+	padding: 1rem;
+}
+
+.card img {
+	padding: 1rem;
+	width: 15rem;
+}
+
+.container span {
+	padding: 1rem;
+	font-size: 2rem;
+	font-weight: 900;
+	color: #2d46b9;
+}
+
+.container p {
+	line-height: 1.5;
+	word-spacing: 1.5px;
+	letter-spacing: 0.5px;
+	font-size: 0.9rem;
+	padding: 1rem;
+	color: #666;
+	text-align: justify;
+}
+
+button {
+	display: block;
+	text-align: center;
+	margin: 1rem auto;
+	margin-bottom: 0.5rem;
+	width: 12rem;
+	padding: 0.5rem;
+	border-radius: 5px;
+	border: none;
+	background-color: #ffc947;
+	font-size: 1rem;
+	color: #171717;
+	font-weight: 500;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+	transform: scale(0.98);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn2 {
+	background-color: #df711b;
+}
+
+footer {
+	text-align: center;
+	margin: 1rem;
+	color: #798777;
+	font-size: 1.1rem 1.1rem;
+}
